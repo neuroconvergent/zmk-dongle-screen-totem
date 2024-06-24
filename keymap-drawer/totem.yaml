@@ -84,7 +84,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&soft_off'
   - ''
   - ''
   - {t: '$$mdi:bluetooth$$', s: '$$mdi:close-thick$$', type: text_with_symbol}
