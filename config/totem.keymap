@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LNLCK  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_N0         &kp F5                &kp PAGE_DOWN    &kp PAGE_UP  &kp C_MUTE  &kp C_BRI_INC    
-        &kp CAPS   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp C_PLAY_PAUSE  &kp LEFT              &kp DOWN         &kp UP       &kp RIGHT   &kp C_BRI_DEC  
-&trans  &kp DEL    &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &kp C_NEXT   &kp C_PREV  &trans         &trans
-                              &trans     &trans     &trans            &lt 3 SPACE           &kp LS(LCTRL)    &kp PSCRN
+        &kp KP_NLCK  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_N0         &kp F5                &kp PAGE_DOWN    &kp PAGE_UP  &kp C_MUTE  &kp C_BRI_INC    
+        &kp CAPS     &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp C_PLAY_PAUSE  &kp LEFT              &kp DOWN         &kp UP       &kp RIGHT   &kp C_BRI_DEC  
+&trans  &kp DEL      &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &kp C_NEXT   &kp C_PREV  &trans         &trans
+                                &trans     &trans     &trans            &lt 3 SPACE           &kp LS(LCTRL)    &kp PSCRN
             >;
         };
 
