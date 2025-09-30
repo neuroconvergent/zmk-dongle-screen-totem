@@ -92,28 +92,6 @@
             >;
         };
 
-        Media {
-            bindings = <
-       &none     &none     &none      &none      &none    &soft_off          &none             &none              &bt BT_CLR       &bootloader
-       &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &ext_power EP_TOG  &kp C_PREVIOUS    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT
-&none  &none     &none     &none      &none      &none    &out OUT_TOG       &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3  &none
-                           &none      &none      &none    &kp C_STOP         &kp K_PLAY_PAUSE  &kp K_MUTE
-            >;
-
-            label = "Media";
-        };
-
-        Num {
-            bindings = <
-        &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans     &trans     &trans    &trans
-        &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &kp RSHFT  &kp LCTRL  &kp RALT  &kp RGUI
-&trans  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &trans  &trans     &trans     &trans    &trans    &trans
-                           &kp DOT  &kp N0  &kp MINUS    &trans  &trans     &trans
-            >;
-
-            label = "Num";
-        };
-
         sym_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
@@ -136,17 +114,6 @@
 &kp LC(LG(LEFT_ARROW))  &kp TILDE  &kp EXCL &kp AT           &kp HASH   &kp PIPE  &trans     &kp LPAR   &kp RPAR   &trans         &kp LA(F4)  &kp LC(LG(RIGHT))
                                             &kp LC(LA(DEL))  &kp LSHFT  &mo 4     &trans     &trans     &trans
             >;
-        };
-
-        Fun {
-            bindings = <
-        &kp F12  &kp F7  &kp F8     &kp F9  &kp PRINTSCREEN    &trans  &trans     &trans     &trans    &trans
-        &kp F11  &kp F4  &kp F5     &kp F6  &kp SCROLLLOCK     &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
-&trans  &kp F10  &kp F1  &kp F2     &kp F3  &kp PAUSE_BREAK    &trans  &trans     &trans     &trans    &trans    &trans
-                         &kp K_APP  &trans  &trans             &trans  &trans     &trans
-            >;
-
-            label = "Fun";
         };
 
         adjust_layer {
